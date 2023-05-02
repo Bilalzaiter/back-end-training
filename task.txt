@@ -1,0 +1,11 @@
+add command  take care of duplicate data
+delete command
+read command
+list command
+to add 10 person in a json 
+to delete 4 (2-5-6-9)
+to read data 2 (3-8)
+to list fname - age - city
+
+
+deadline wed 2:00

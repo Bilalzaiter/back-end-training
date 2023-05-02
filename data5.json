@@ -1,0 +1,44 @@
+[
+    {
+        "id": 1,
+        "fname": "Bilal",
+        "lname": "zeaiter",
+        "age": 40,
+        "city": "Chtoura"
+    },
+    {
+        "id": 3,
+        "fname": "dib",
+        "lname": "homeimes",
+        "age": 43,
+        "city": "terbol"
+    },
+    {
+        "id": 4,
+        "fname": "hasan",
+        "lname": "elouta",
+        "age": 41,
+        "city": "riyak"
+    },
+    {
+        "id": 7,
+        "fname": "hassan",
+        "lname": "esmail",
+        "age": 43,
+        "city": "brital"
+    },
+    {
+        "id": 8,
+        "fname": "fadel",
+        "lname": "khalil",
+        "age": 55,
+        "city": "alein"
+    },
+    {
+        "id": 10,
+        "fname": "alaa",
+        "lname": "shams",
+        "age": 39,
+        "city": "hermel"
+    }
+]
