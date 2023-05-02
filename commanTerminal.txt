@@ -1,0 +1,156 @@
+PS C:\Users\User\Documents\back-end\lec1-Node> node app.js delete --id="2"
+[
+  { id: 1, fname: 'Bilal', lname: 'zeaiter', age: 40, city: 'Chtoura' },
+  { id: 3, fname: 'dib', lname: 'homeimes', age: 43, city: 'terbol' },  
+  { id: 4, fname: 'hasan', lname: 'elouta', age: 41, city: 'riyak' },   
+  {
+    id: 5,
+    fname: 'edmon',
+    lname: 'khalil',
+    age: 43,
+    city: 'alnabi shit'
+  },
+  {
+    id: 6,
+    fname: 'ali',
+    lname: 'moussawi',
+    age: 35,
+    city: 'alnabi shit'
+  { id: 7, fname: 'hassan', lname: 'esmail', age: 43, city: 'brital' },
+  { id: 8, fname: 'fadel', lname: 'khalil', age: 55, city: 'alein' },
+  {
+    id: 9,
+    fname: 'fouad',
+    lname: 'mouselmani',
+    age: 53,
+    city: 'eljdeide'
+  },
+  { id: 10, fname: 'alaa', lname: 'shams', age: 39, city: 'hermel' }
+]
+you have successfully deleted the item
+{ _: [ 'delete' ], id: 2, '$0': 'app.js' }
+PS C:\Users\User\Documents\back-end\lec1-Node> node app.js delete --id="5"
+[
+  { id: 1, fname: 'Bilal', lname: 'zeaiter', age: 40, city: 'Chtoura' },
+  { id: 3, fname: 'dib', lname: 'homeimes', age: 43, city: 'terbol' },
+  { id: 4, fname: 'hasan', lname: 'elouta', age: 41, city: 'riyak' },
+  {
+    id: 6,
+    fname: 'ali',
+    lname: 'moussawi',
+    age: 35,
+    city: 'alnabi shit'
+  { id: 7, fname: 'hassan', lname: 'esmail', age: 43, city: 'brital' },
+  { id: 8, fname: 'fadel', lname: 'khalil', age: 55, city: 'alein' },
+  {
+    id: 9,
+    fname: 'fouad',
+    lname: 'mouselmani',
+    age: 53,
+    city: 'eljdeide'
+  },
+  { id: 10, fname: 'alaa', lname: 'shams', age: 39, city: 'hermel' }
+]
+you have successfully deleted the item
+{ _: [ 'delete' ], id: 5, '$0': 'app.js' }
+PS C:\Users\User\Documents\back-end\lec1-Node> node app.js delete --id="6"
+[
+  { id: 1, fname: 'Bilal', lname: 'zeaiter', age: 40, city: 'Chtoura' },
+  { id: 3, fname: 'dib', lname: 'homeimes', age: 43, city: 'terbol' },
+  { id: 7, fname: 'hassan', lname: 'esmail', age: 43, city: 'brital' },
+  { id: 8, fname: 'fadel', lname: 'khalil', age: 55, city: 'alein' },
+  {
+    id: 9,
+    fname: 'fouad',
+    lname: 'mouselmani',
+    age: 53,
+    city: 'eljdeide'
+  },
+  { id: 10, fname: 'alaa', lname: 'shams', age: 39, city: 'hermel' }
+you have successfully deleted the item
+{ _: [ 'delete' ], id: 6, '$0': 'app.js' }
+PS C:\Users\User\Documents\back-end\lec1-Node> node app.js delete --id="9"
+  { id: 1, fname: 'Bilal', lname: 'zeaiter', age: 40, city: 'Chtoura' },
+  { id: 3, fname: 'dib', lname: 'homeimes', age: 43, city: 'terbol' },
+  { id: 4, fname: 'hasan', lname: 'elouta', age: 41, city: 'riyak' },
+  { id: 8, fname: 'fadel', lname: 'khalil', age: 55, city: 'alein' },
+  { id: 10, fname: 'alaa', lname: 'shams', age: 39, city: 'hermel' }
+]
+you have successfully deleted the item
+{ _: [ 'delete' ], id: 9, '$0': 'app.js' }
+PS C:\Users\User\Documents\back-end\lec1-Node> node app.js read --id="3"
+{ id: 3, fname: 'dib', lname: 'homeimes', age: 43, city: 'terbol' }
+{ _: [ 'read' ], id: 3, '$0': 'app.js' }
+PS C:\Users\User\Documents\back-end\lec1-Node> node app.js read --id="8"
+{ id: 8, fname: 'fadel', lname: 'khalil', age: 55, city: 'alein' }
+8
+{ _: [ 'read' ], id: 8, '$0': 'app.js' }
+PS C:\Users\User\Documents\back-end\lec1-Node> node app.js list
+Bilal 40 Chtoura
+dib 43 terbol
+hasan 41 riyak
+fadel 55 alein
+alaa 39 hermel
+{ _: [ 'list' ], '$0': 'app.js' }
+PS C:\Users\User\Documents\back-end\lec1-Node> node app.js add --fname rodrigue --lname kayed --age 40 --city zahle --id 2
+{
+  _: [ 'add' ],
+  fname: 'rodrigue',
+  lname: 'kayed',
+  age: 40,
+  city: 'zahle',
+  '$0': 'app.js'
+}
+PS C:\Users\User\Documents\back-end\lec1-Node> node app.js delete --id="2"
+[
+  { id: 1, fname: 'Bilal', lname: 'zeaiter', age: 40, city: 'Chtoura' },
+  { id: 3, fname: 'dib', lname: 'homeimes', age: 43, city: 'terbol' },
+  { id: 4, fname: 'hasan', lname: 'elouta', age: 41, city: 'riyak' },
+  { id: 7, fname: 'hassan', lname: 'esmail', age: 43, city: 'brital' },
+  { id: 8, fname: 'fadel', lname: 'khalil', age: 55, city: 'alein' },
+  { id: 10, fname: 'alaa', lname: 'shams', age: 39, city: 'hermel' }
+you have successfully deleted the item
+{ _: [ 'delete' ], id: 2, '$0': 'app.js' }
+PS C:\Users\User\Documents\back-end\lec1-Node> node app.js add --fname ali --lname moussawi --age 35 --city "alnabi shit" --id 3
+duplicate data
+{
+  _: [ 'add' ],
+  fname: 'ali',
+  lname: 'moussawi',
+  age: 35,
+  city: 'alnabi shit',
+  '$0': 'app.js'
+}
+PS C:\Users\User\Documents\back-end\lec1-Node> node app.js add --fname ali --lname moussawi --age 35 --city "alnabi shit" --id 3
+duplicate data
+{
+  _: [ 'add' ],
+  fname: 'ali',
+  lname: 'moussawi',
+  age: 35,
+  city: 'alnabi shit',
+  '$0': 'app.js'
+}
+PS C:\Users\User\Documents\back-end\lec1-Node> node app.js add --fname ali --lname moussawi --age 35 --city "alnabi shit" --id 1
+duplicate data
+{
+  _: [ 'add' ],
+  fname: 'ali',
+  lname: 'moussawi',
+  age: 35,
+  city: 'alnabi shit',
+  id: 1,
+  '$0': 'app.js'
+}
+PS C:\Users\User\Documents\back-end\lec1-Node> node app.js add --fname ali --lname moussawi --age 35 --city "alnabi shit" --id 4
+duplicate data
+{
+  _: [ 'add' ],
+  fname: 'ali',
+  lname: 'moussawi',
+  age: 35,
+  city: 'alnabi shit',
+  id: 4,
+  '$0': 'app.js'
+}
+PS C:\Users\User\Documents\back-end\lec1-Node> 
